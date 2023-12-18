@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout</title>
+
+    <style>
+        .food img{
+            width: 50%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+        .food{
+            border: 3px solid salmon;
+            border-radius: 7px;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+        }
+        @media screen and (min-width: 577px) and (max-width: 992px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 1</h2>
+            <h2>Price 100</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti earum porro nesciunt voluptate.
+                Totam dolorum ab dicta consequuntur consequatur delectus dignissimos reprehenderit ratione, iste iure,
+                ipsam tenetur quaerat quibusdam!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 2</h2>
+            <h2>Price 200</h2>
+            <p>Repellendus rem velit quae obcaecati? Hic deleniti rerum fuga beatae fugit eius suscipit nostrum
+                perferendis aspernatur, aperiam similique. Ipsa totam impedit libero? Aliquam quia amet dolor quibusdam
+                labore dolorum voluptate?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 3</h2>
+            <h2>Price 300</h2>
+            <p>Ea dolorum ullam expedita quidem ut veniam magni voluptatibus recusandae quas? Reiciendis mollitia,
+                possimus, natus sequi vel officia laborum voluptatum corrupti sapiente voluptatibus aut placeat beatae,
+                aliquam nisi maiores incidunt?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 4</h2>
+            <h2>Price 400</h2>
+            <p>Numquam cupiditate delectus quo error assumenda autem molestiae, totam maiores et! Perferendis aliquid
+                aspernatur necessitatibus dolorum corrupti odio rem perspiciatis architecto molestias sed totam sint
+                dignissimos, temporibus earum ex minus?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 5</h2>
+            <h2>Price 500</h2>
+            <p>Expedita, qui. Ipsam, quos dicta excepturi a repudiandae fugit autem fuga, recusandae vitae eum,
+                consectetur sit suscipit deleniti? In, possimus dolorem! Est adipisci consequatur error iure
+                consequuntur, at voluptatem distinctio.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 6</h2>
+            <h2>Price 600</h2>
+            <p>Sed, ea dolorum atque quidem itaque, in doloribus fugit dolorem quam porro aliquid unde et. Rem, vero
+                debitis accusamus beatae officiis, error architecto impedit suscipit cum veniam alias a molestias?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 7</h2>
+            <h2>Price 700</h2>
+            <p>Cupiditate officia ipsum nesciunt eos natus quibusdam odit consectetur ad sit fugit ea esse, repudiandae
+                culpa libero temporibus earum. Aperiam voluptatibus dicta temporibus, sunt repellat blanditiis
+                repellendus. Aut, fugiat ipsum!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 8</h2>
+            <h2>Price 800</h2>
+            <p>Numquam a culpa nostrum cumque tenetur velit recusandae voluptates quaerat reiciendis deleniti
+                praesentium, cupiditate quibusdam natus ab repellendus modi voluptatum quam eligendi fuga eaque unde.
+                Aut culpa tempora odio veritatis!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 9</h2>
+            <h2>Price 900</h2>
+            <p>Delectus rem reprehenderit laudantium optio sequi dicta odit fuga itaque id eaque hic at repellat aperiam
+                magnam ipsum in nulla, ex inventore. Fuga modi aliquam excepturi quibusdam earum provident itaque?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 10</h2>
+            <h2>Price 1000</h2>
+            <p>Iusto quas veritatis laborum quis velit consectetur tempore sit vel sint! Odit cupiditate magnam
+                voluptatum perferendis eaque similique sunt at aperiam dolor, voluptas beatae rerum quo quidem
+                voluptatibus nostrum. Voluptatem!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 11</h2>
+            <h2>Price 1100</h2>
+            <p>Voluptatibus reiciendis aliquid officiis magnam cumque minus velit necessitatibus tempora consectetur
+                harum mollitia at dolorum ea minima sed autem sunt deleniti, nisi adipisci omnis repellendus eum,
+                quaerat beatae? Ex, eos.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>Item 12</h2>
+            <h2>Price 1200</h2>
+            <p>Debitis at veniam repellendus dicta, provident in exercitationem quia architecto accusamus quo odio ipsa
+                doloremque unde. Qui maiores ipsam, tempore explicabo vel at consequuntur nemo laudantium, eius
+                dignissimos, ut delectus.</p>
+        </div>
+    </div>
+</body>
+
+</html>

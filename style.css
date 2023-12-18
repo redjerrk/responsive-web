@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+nav {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 20px;
+}
+.log-in-heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.log-in-container {
+    margin-top: 20px;
+}
+
+.log-in-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log-in-form input{
+    border: 0;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: black;
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.log-in-form input[type = submit]{
+    padding: 5px 10px;
+    font-size: 25px;
+    color: black;
+    background-color: peru;
+    margin-top: 20px;
+}
